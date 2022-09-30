@@ -27,26 +27,35 @@ const experienceYearsSlots = {
     cssY: experienceYearNumber[1],
     jsY: experienceYearNumber[2],
     scssY: experienceYearNumber[3],
-    reactY: experienceYearNumber[4]
+    sassY: experienceYearNumber[4],
+    jqY: experienceYearNumber[5],
+    tailwindY: experienceYearNumber[6]
+    
 }
 const {
     htmlY,
     cssY,
     jsY,
     scssY,
-    reactY
+    sassY,
+    jqY,
+    tailwindY
+
 } = experienceYearsSlots;
 
 const experienceYearNumberSystem = ()=> {
     const date = new Date();
     const year = date.getFullYear();
     const startYear = 2019;
+    
 
     htmlY.textContent = year-startYear;
     cssY.textContent = year-startYear;
     jsY.textContent = year-2020;
-    scssY.textContent = year-2022;
-    reactY.textContent = year-year;
+    // scssY.innerHTML = `"<1 Years Of Experience"`;
+    // sassY.innerHTML = "<1 Years Of Experience";
+    // jqY.innerHTML = "<1 Years Of Experience";
+    // tailwindY.innerHTML = "<1 Years Of Experience";
 }
 setInterval(experienceYearNumberSystem, 1000);
 

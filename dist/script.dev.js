@@ -27,13 +27,17 @@ var experienceYearsSlots = {
   cssY: experienceYearNumber[1],
   jsY: experienceYearNumber[2],
   scssY: experienceYearNumber[3],
-  reactY: experienceYearNumber[4]
+  sassY: experienceYearNumber[4],
+  jqY: experienceYearNumber[5],
+  tailwindY: experienceYearNumber[6]
 };
 var htmlY = experienceYearsSlots.htmlY,
     cssY = experienceYearsSlots.cssY,
     jsY = experienceYearsSlots.jsY,
     scssY = experienceYearsSlots.scssY,
-    reactY = experienceYearsSlots.reactY;
+    sassY = experienceYearsSlots.sassY,
+    jqY = experienceYearsSlots.jqY,
+    tailwindY = experienceYearsSlots.tailwindY;
 
 var experienceYearNumberSystem = function experienceYearNumberSystem() {
   var date = new Date();
@@ -41,9 +45,10 @@ var experienceYearNumberSystem = function experienceYearNumberSystem() {
   var startYear = 2019;
   htmlY.textContent = year - startYear;
   cssY.textContent = year - startYear;
-  jsY.textContent = year - 2020;
-  scssY.textContent = year - 2022;
-  reactY.textContent = year - year;
+  jsY.textContent = year - 2020; // scssY.innerHTML = `"<1 Years Of Experience"`;
+  // sassY.innerHTML = "<1 Years Of Experience";
+  // jqY.innerHTML = "<1 Years Of Experience";
+  // tailwindY.innerHTML = "<1 Years Of Experience";
 };
 
 setInterval(experienceYearNumberSystem, 1000); // Project Section ===:
