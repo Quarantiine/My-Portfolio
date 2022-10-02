@@ -420,7 +420,6 @@ body {
 }
 .parent-project-section .p-project-section {
   width: 100%;
-  gap: 100px;
 }
 .parent-project-section .p-project-section .projects-section-3 .ps-container, .parent-project-section .p-project-section .projects-section-1 .ps-container {
   width: 1500px;
@@ -490,13 +489,12 @@ body {
   font-size: 40px;
 }
 .parent-project-section .p-project-section .projects-section-1 {
-  background-image: url("../imgs/website-project-img.jpg");
+  background-color: #116ffc;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 600px;
-  box-shadow: 0px 0px 20px black;
 }
 .parent-project-section .p-project-section .projects-section-1 .ps-container .psc-project-slider::-webkit-scrollbar {
   height: 20px;
@@ -511,13 +509,9 @@ body {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 .parent-project-section .p-project-section .projects-section-2 {
-  background-image: url("../imgs/javascript-project-img.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #222;
   width: 100%;
   height: 600px;
-  box-shadow: 0px 0px 20px black;
 }
 .parent-project-section .p-project-section .projects-section-2 .ps-container {
   padding: 10px;
@@ -538,7 +532,7 @@ body {
   height: 20px;
 }
 .parent-project-section .p-project-section .projects-section-2 .ps-container .psc-project-slider::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: #116ffc;
   border-radius: 20px;
 }
 .parent-project-section .p-project-section .projects-section-2 .ps-container .psc-project-slider::-webkit-scrollbar-track {
@@ -547,22 +541,18 @@ body {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 .parent-project-section .p-project-section .projects-section-3 {
-  background-image: url("../imgs/react-project-img.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #dfdfdf;
   width: 100%;
   height: 600px;
-  box-shadow: 0px 0px 20px black;
 }
 .parent-project-section .p-project-section .projects-section-3 .ps-container .psc-header h1 {
-  color: white;
+  color: #222;
 }
 .parent-project-section .p-project-section .projects-section-3 .ps-container .psc-project-slider::-webkit-scrollbar {
   height: 20px;
 }
 .parent-project-section .p-project-section .projects-section-3 .ps-container .psc-project-slider::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: #222;
   border-radius: 20px;
 }
 .parent-project-section .p-project-section .projects-section-3 .ps-container .psc-project-slider::-webkit-scrollbar-track {
