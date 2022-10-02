@@ -28,16 +28,14 @@ var experienceYearsSlots = {
   jsY: experienceYearNumber[2],
   scssY: experienceYearNumber[3],
   sassY: experienceYearNumber[4],
-  jqY: experienceYearNumber[5],
-  tailwindY: experienceYearNumber[6]
+  jqY: experienceYearNumber[5]
 };
 var htmlY = experienceYearsSlots.htmlY,
     cssY = experienceYearsSlots.cssY,
     jsY = experienceYearsSlots.jsY,
     scssY = experienceYearsSlots.scssY,
     sassY = experienceYearsSlots.sassY,
-    jqY = experienceYearsSlots.jqY,
-    tailwindY = experienceYearsSlots.tailwindY;
+    jqY = experienceYearsSlots.jqY;
 
 var experienceYearNumberSystem = function experienceYearNumberSystem() {
   var date = new Date();
@@ -48,7 +46,6 @@ var experienceYearNumberSystem = function experienceYearNumberSystem() {
   jsY.textContent = year - 2020; // scssY.innerHTML = `"<1 Years Of Experience"`;
   // sassY.innerHTML = "<1 Years Of Experience";
   // jqY.innerHTML = "<1 Years Of Experience";
-  // tailwindY.innerHTML = "<1 Years Of Experience";
 };
 
 setInterval(experienceYearNumberSystem, 1000); // Project Section ===:

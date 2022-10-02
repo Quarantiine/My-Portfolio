@@ -29,7 +29,6 @@ const experienceYearsSlots = {
     scssY: experienceYearNumber[3],
     sassY: experienceYearNumber[4],
     jqY: experienceYearNumber[5],
-    tailwindY: experienceYearNumber[6]
     
 }
 const {
@@ -39,7 +38,6 @@ const {
     scssY,
     sassY,
     jqY,
-    tailwindY
 
 } = experienceYearsSlots;
 
@@ -55,7 +53,6 @@ const experienceYearNumberSystem = ()=> {
     // scssY.innerHTML = `"<1 Years Of Experience"`;
     // sassY.innerHTML = "<1 Years Of Experience";
     // jqY.innerHTML = "<1 Years Of Experience";
-    // tailwindY.innerHTML = "<1 Years Of Experience";
 }
 setInterval(experienceYearNumberSystem, 1000);
 

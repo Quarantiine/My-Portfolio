@@ -505,6 +505,7 @@ body {
 	.p-project-section {
 		@extend %project-display-template;
 		width: 100%;
+		gap: 100px;
 
 		%ps-container-template { // ==
 			width: 1500px;
@@ -580,12 +581,18 @@ body {
 
 		// Variables:
 		$project-sections-height: 600px;
+		$project-sections-box-shadow: 0px 0px 20px rgba(#000, 1);
 
 		.projects-section-1 {
 			@extend %project-display-template;
-			background-color: $default-blu;
+			// background-color: $default-blu;
+			background-image: url('../imgs/website-project-img.jpg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
 			width: 100%;
 			height: $project-sections-height;
+			box-shadow: $project-sections-box-shadow;
 
 			.ps-container {
 				@extend %ps-container-template;
@@ -620,9 +627,14 @@ body {
 		
 		.projects-section-2 {
 			@extend %project-display-template;
-			background-color: #222;
+			// background-color: #222;
+			background-image: url('../imgs/javascript-project-img.jpg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
 			width: 100%;
 			height: $project-sections-height;
+			box-shadow: $project-sections-box-shadow;
 
 			.ps-container {
 				// width: 50%;
@@ -654,7 +666,8 @@ body {
 				} .psc-project-slider::-webkit-scrollbar {
 					height: 20px;
 				} .psc-project-slider::-webkit-scrollbar-thumb {
-					background-color: $default-blu;
+					// background-color: $default-blu;
+					background-color: white;
 					border-radius: 20px;
 				} .psc-project-slider::-webkit-scrollbar-track {
 					background-color: transparent;
@@ -667,9 +680,14 @@ body {
 		
 		.projects-section-3 {
 			@extend %project-display-template;
-			background-color: rgb(223, 223, 223);
+			// background-color: rgb(223, 223, 223);
+			background-image: url('../imgs/react-project-img.jpg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
 			width: 100%;
 			height: $project-sections-height;
+			box-shadow: $project-sections-box-shadow;
 
 			.ps-container {
 				@extend %ps-container-template;
@@ -679,7 +697,8 @@ body {
 					
 					h1 {
 						@extend %psc-header-item-template;
-						color: #222;
+						// color: #222;
+						color: white;
 					}
 				}
 
@@ -692,7 +711,8 @@ body {
 				} .psc-project-slider::-webkit-scrollbar {
 					height: 20px;
 				} .psc-project-slider::-webkit-scrollbar-thumb {
-					background-color: #222;
+					// background-color: #222;
+					background-color: white;
 					border-radius: 20px;
 				} .psc-project-slider::-webkit-scrollbar-track {
 					background-color: transparent;
