@@ -540,7 +540,7 @@ body {
 			justify-content: start;
 			align-items: center;
 			gap: 30px;
-			scroll-snap-type: x mandatory;
+			scroll-snap-type: mandatory;
 		}
 		%project-slide-template { // ==
 			width: 300px;

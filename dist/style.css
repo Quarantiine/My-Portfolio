@@ -450,7 +450,7 @@ body {
   justify-content: start;
   align-items: center;
   gap: 30px;
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: mandatory;
 }
 .parent-project-section .p-project-section .projects-section-3 .ps-container .psc-project-slider .project-slide, .parent-project-section .p-project-section .projects-section-2 .ps-container .psc-project-slider .project-slide, .parent-project-section .p-project-section .projects-section-1 .ps-container .psc-project-slider .project-slide {
   width: 300px;
